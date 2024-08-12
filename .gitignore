@@ -1,0 +1,78 @@
+*.env
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Logs
+logs
+*.log
+logs/*
+
+# Build directory
+build/
+dist/
+public/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+.eslintcache
+
+# Debugger configurations
+.vscode/
+*.code-workspace
+
+# React build output
+/build
+
+# Coverage directory used by testing tools
+coverage/
+
+# Generated documentation
+docs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Production build output
+dist/
+
+# SASS cache
+.sass-cache/
+
+# NPM specific files
+package-lock.json
+yarn.lock
+
+# Bower dependency directory
+bower_components/
+
+# Protractor end-to-end testing
+/screenshots/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js specific
+.next/
+
+# Nuxt.js specific
+.nuxt/
