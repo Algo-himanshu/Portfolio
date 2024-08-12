@@ -1,19 +1,22 @@
-*.env
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Node.js
 node_modules/
 npm-debug.log
 yarn-error.log
-.env
 
 # Logs
-logs
+logs/
 *.log
-logs/*
 
-# Build directory
+# Build directories
 build/
 dist/
-public/
 
 # OS-specific files
 .DS_Store
@@ -26,17 +29,15 @@ Thumbs.db
 *.sublime-workspace
 
 # Dependency directories
-node_modules/
-.pnp
+.pnp/
 .pnp.js
 .eslintcache
 
-# Debugger configurations
-.vscode/
-*.code-workspace
-
-# React build output
-/build
+# React build output (build directory)
+# Note: Ensure you have a specific build directory if using create-react-app
+# The build directory should be excluded in the repository as it is generated on build.
+# In case you have a different build directory, you can specify it here.
+build/
 
 # Coverage directory used by testing tools
 coverage/
@@ -47,9 +48,6 @@ docs/
 # Temporary files
 *.tmp
 *.temp
-
-# Production build output
-dist/
 
 # SASS cache
 .sass-cache/
@@ -62,17 +60,13 @@ yarn.lock
 bower_components/
 
 # Protractor end-to-end testing
-/screenshots/
+screenshots/
 
-# Environment Variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Framework specific
+# Exclude folders specific to frameworks you may use
+# .next/ (Next.js)
+# .nuxt/ (Nuxt.js)
 
-# Next.js specific
-.next/
-
-# Nuxt.js specific
-.nuxt/
+# Commented out if not using these frameworks
+# .next/
+# .nuxt/
